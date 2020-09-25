@@ -88,7 +88,7 @@ function draw() {
   
 else if(gameState===END){
     ground.velocityX = 0;
-    trex.velocityX = 0;
+    trex.velocityY = 0;
     gameOver.visible = true;
     restart.visible = true;
     obstaclesGroup.setVelocityXEach(0);
